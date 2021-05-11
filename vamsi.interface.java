@@ -49,17 +49,18 @@ class Train implements IVechicle,IPublicTransport
     System.out.println("train has some 200 people"); 
    }
 } 
-class test{ public static void main(String[] args)
+class test{
+ public static void main(String[] args)
 { 
   IVechicle c=new car();
-  c.drive;
-  c.turnLeft;
-  c.brake;
+  c.drive();
+  c.turnLeft();
+  c.brake();
   IVechicle t=new train();
-  t.drive;
-  t.turnLeft; 
-  t.brake; 
+  t.drive();
+  t.turnLeft(); 
+  t.brake(); 
   IPublicTransport t=new train();
-  t.getNumberOfPeople;
+  t.getNumberOfPeople();
 }
           }
